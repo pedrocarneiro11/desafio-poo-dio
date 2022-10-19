@@ -1,5 +1,6 @@
 package src;
 
+import src.br.com.dio.desafio.dominio.Conteudo;
 import src.br.com.dio.desafio.dominio.Curso;
 import src.br.com.dio.desafio.dominio.Mentoria;
 
@@ -17,7 +18,7 @@ public class Main {
         curso2.setDescricao("Descricao curso Angular");
         curso2.setCargaHoraria(6);
 
-        Mentoria mentoria = new Mentoria();
+        Mentoria mentoria = new Mentoria(); //instanciamento do objeto mentoria
         mentoria.setTitulo("Mentoria JavaScript");
         mentoria.setDescricao("Descricao Mentoria JavaScript");
         mentoria.setData(LocalDate.now());

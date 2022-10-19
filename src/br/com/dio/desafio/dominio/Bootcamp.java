@@ -1,0 +1,4 @@
+package src.br.com.dio.desafio.dominio;
+
+public class Bootcamp {
+}
